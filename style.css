@@ -1,0 +1,287 @@
+header{
+	margin:0 50px 20px 0px;
+	width: 100%;
+    position: fixed;
+    z-index: 100;
+    top:0;
+    height: 154px;
+}
+.content{
+	padding: 25px 0;
+	margin:50px 0 0 0;
+	width: 100%;
+}
+.logo-navbar{
+    height: 100px;
+}
+.portfolio{
+    border-top: 3px solid red;
+    background-image: url("https://i.postimg.cc/JzpQm3SV/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0px;
+    margin-top: 125px;
+    margin-right: 0px;
+    opacity: 1;
+  width:100%;
+}
+
+.title{
+	width: 411px;
+	margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 26px;
+}
+
+.title h2 {
+    width: 356px;
+    color: #fa5265;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 500;
+    padding: 13px;
+    text-align: center;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.works div{
+	margin-bottom: 40px;
+}
+
+.works div a .img-project{
+	opacity: 0.8;
+	transition:all 0.3s ease-in 0s;
+    height: 200px;
+}
+
+.works div a{
+	width: 100%;
+}
+
+.works div a .img-project:hover{
+	opacity: 1;
+	transition:all 0.3s ease-in 0s;
+}
+
+.img-project {
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.img-project1 {
+    background-image: url("https://i.postimg.cc/SxHJWJMY/img-project1.png");
+}
+.img-project2 {
+    background-image: url("https://i.postimg.cc/Vs7sqJys/img-project2.png");
+}
+.img-project3 {
+    background-image: url("https://i.postimg.cc/QCF2kx5V/img-project3.png");
+}
+.img-project4 {
+    background-image: url("https://i.postimg.cc/7LKBxn4z/img-project4.png");
+}
+.bg-img-dark {
+    background-color: #343a40;
+    height: 100%;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bg-img-dark h3, .bg-img-dark h6 {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+    opacity: 1;
+ 
+}
+
+/* A PROPOS */
+.apropos{
+    background: #e4e4e4;
+    margin-top: -50px;
+}
+.timeline{
+	border-left: 1px solid #bebebe;
+}
+
+.about_cat{
+	padding:0 0 15px 35px;
+	border-bottom: 1px solid #bebebe;
+}
+
+.about_cat h3{
+	color: #cacaca;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.about_cat .puce_etude{
+	height: 40px;
+    left: -55px;
+    position: absolute;
+    top: -2px;
+    width: 40px;
+	background: url('https://i.postimg.cc/rmR65w5s/pucestudy.png') center no-repeat;
+}
+
+.about_cat .puce_work{
+	height: 40px;
+    left: -55px;
+    position: absolute;
+    top: -2px;
+    width: 40px;
+	background: url('https://i.postimg.cc/5tGT9WDV/pucework.png') center no-repeat;
+}
+
+.about_cat .puce_skills{
+	height: 40px;
+    left: -55px;
+    position: absolute;
+    top: -2px;
+    width: 40px;
+	background: url('https://i.postimg.cc/HkvP3CYy/puceskills.png') center no-repeat;
+}
+
+.about_cat ul li{
+	padding-bottom: 25px;
+    position: relative;
+    left: -40px;
+    list-style-type: none;
+}
+
+.about_cat ul li h4{
+	color: #424350;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.about_cat ul li .time{
+	color: #fb4d61;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.about_cat ul li p{
+	color: #5a5c6d;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.about_cat ul li ul li{
+    padding-bottom: 0;
+    padding-left: 10px;
+    margin-left: 10px;
+    background: url('https://i.postimg.cc/Y9YnpG16/listpuce.png') left no-repeat;
+}
+
+.about_cat ul li .smaller{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.about_cat ul li .puce{
+    background: url('https://i.postimg.cc/LszL5zb8/puce.png') center no-repeat;
+    height: 10px;
+    left: -40px;
+    position: absolute;
+    top: 7px;
+    width: 10px;
+}
+.contact {
+    background-color: black;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.formulaire {
+   
+  margin-left: 11px;
+}
+.inputtbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.form_contact label{
+	color: white;
+    display: block;
+    margin-bottom: 8px;
+    padding: 5px 0;
+}
+
+.form_contact [type="text"], .form_contact textarea {
+    border: 1px solid #2d2d2d;
+    color: #666666;
+    display: block;
+    font-size: 13px;
+    height: 45px;
+    padding-left: 10px;
+}
+
+.form_contact .inputt{
+	float: left;
+    margin: 0 20px 15px 0;
+    width: 295px;
+}
+.inputt label{
+    width:200px;
+    color: white;
+}
+
+.form_contact [type="text"] {
+    width: 280px;
+}
+
+.form_contact textarea {
+    resize: both;
+    line-height: 25px;
+    min-height: 200px;
+    
+}
+.textarea-contact{
+    resize: both !important;
+}
+.form_contact .submit {
+    background: #454959;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    text-transform: uppercase;
+    width: 20%;
+    margin-top: 20px;
+}
+footer{
+      background: #2A2D35;
+  margin-top:-15px;
+  height:70px;
+}
+footer p{
+  text-align:center;
+  color:white;
+}
+footer a{
+  text-decoration:none;
+  color:#6f747f;
+  
+}
